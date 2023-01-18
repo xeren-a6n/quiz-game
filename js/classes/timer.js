@@ -1,4 +1,5 @@
-const timerTime = 20000;
+var timerTime = 20000;
+var timerExtend = 20000;
 const timerRefreshRate = 50;
 
 class Timer {
@@ -36,7 +37,7 @@ class Timer {
     }
 
     add() {
-        this.#toReach += timerTime;
+        this.#toReach += timerExtend;
     }
 
     start() {
