@@ -1,0 +1,106 @@
+{
+  "name": "Dan",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Ktera automobilova spolecnost se zaslouzila \"udajne\" o tzv. elektronizaci aut?",
+      "answer": "Tesla",
+      "options": [
+        "Tesla",
+        "Volkswagen",
+        "Volvo",
+        "Nissan"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Kolik prirozenych satelitu ma planeta zeme?",
+      "answer": "1",
+      "options": [
+        "zadny",
+        "1",
+        "2",
+        "3"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Techno, Electro, House spadaji do jake kategorie hudby?",
+      "answer": "EDM",
+      "options": [
+        "EDM",
+        "Hip Hop",
+        "Metal",
+        "Rock"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Mezi jakymi planetami se nachazi tzv. Velky pas asteroidu?",
+      "answer": "mars a jupiter",
+      "options": [
+        "mars a jupiter",
+        "saturn a uran",
+        "uran a neptun",
+        "jupiter a saturn"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Od ktereho interpreta je skladba Faded?",
+      "answer": "Alan Walker",
+      "options": [
+        "Alan Walker",
+        "Klayton",
+        "Deadmau5",
+        "Danda Masovic"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Co jsou ridici v cesku povinni mitpo celou dobu zapnute od roku 2006?",
+      "answer": "predni svetla",
+      "options": [
+        "predni svetla",
+        "bezpecnostni pasy",
+        "radio",
+        "vysilac polohy vozidla pro pripad nehody"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Od ktereho roku pluto neni uznavano jako planeta?",
+      "answer": "2006",
+      "options": [
+        "2006",
+        "2008",
+        "2009",
+        "pluto je planeta"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "\"PLUR\" je takzava filozofie EDM. Co simbolizuje v teto zkratce pismeno L (Love)",
+      "answer": "Love",
+      "options": [
+        "Love",
+        "Life",
+        "Loud",
+        "Liver"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Ve kterem roce byl udelen patent na prvni automatickou prevodovku (1921)",
+      "answer": "1921",
+      "options": [
+        "1921",
+        "1922",
+        "1920",
+        "1919"
+      ],
+      "points": 9000
+    }
+  ]
+}

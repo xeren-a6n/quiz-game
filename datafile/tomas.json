@@ -1,0 +1,106 @@
+{
+  "name": "Tomas",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Syn Michael popsal uspech sveho otce ve knize 'kmotr' frazi: Udela jim nabidku...?",
+      "answer": "kterou nebudou moci odmitnout",
+      "options": [
+        "kterou nebudou moci odmitnout",
+        "kterou musi odmitnout",
+        "ktere nejde odolat",
+        "ktera jim naplni bricho"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "V jakém roce vysel prvni dil serialu jmenuju se Earl?",
+      "answer": "2005",
+      "options": [
+        "2001",
+        "2002",
+        "2003",
+        "2005"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jak v seriialu southpark říká Stanovi jeho dědeček?",
+      "answer": "Billy",
+      "options": [
+        "Billy",
+        "Jerry",
+        "Berry",
+        "Stan"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Jak se jmenuje v seriale jmenuju se earl Earluv bratr?",
+      "answer": "Randy",
+      "options": [
+        "Darnel",
+        "Donny",
+        "Rachel",
+        "Randy"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Jak se jinak rika \"zakonu mlceni\"?",
+      "answer": "Omerta",
+      "options": [
+        "Omerta",
+        "Oferta",
+        "Operta",
+        "Opereta"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Jak se jmenuje v seriale \"jmenuju se earl\" Earlova matka?",
+      "answer": "Kay",
+      "options": [
+        "Kay",
+        "May",
+        "Pay",
+        "Lay"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Vito Corleone z knihy \"kmotr\" mel jako zlodejicek 2 partnery, byl to Tesio a...?",
+      "answer": "Clemenza",
+      "options": [
+        "Clemenza",
+        "Genco",
+        "Barziny",
+        "Federico"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Jak se jmenuje v serialu southpark Butters svým pravým krestnim jménem?",
+      "answer": "Leopold",
+      "options": [
+        "Leopold",
+        "Theodor",
+        "Kevin",
+        "Phillip"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jaké je v seriialu southpark pravé celé jméno Chefa?",
+      "answer": "Jerome McElroy",
+      "options": [
+        "Jerome McElroy",
+        "Jeremy McDonald",
+        "Charles Lee Roy",
+        "Mr. Hankey"
+      ],
+      "points": 9000
+    }
+  ]
+}

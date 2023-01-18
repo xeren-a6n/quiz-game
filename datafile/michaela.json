@@ -1,0 +1,106 @@
+{
+  "name": "Michaela",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Jak se nazyva prestizni ceska filmova soutez, casto nazyvana jako \"cesky oskar\"?",
+      "answer": "Cesky lev",
+      "options": [
+        "Cesky lev",
+        "Týtý",
+        "Cesky slavik",
+        "Darwinova cena"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Ktera cesko-nemecka pohadka vznikla v roce 1973 a dostava se ji obrvskemu uspechu do dnes, jak v cesku, tak i v nemecku?",
+      "answer": "3 orisky pro popelku",
+      "options": [
+        "3 orisky pro popelku",
+        "S certy nejsou zerty",
+        "Silene smutna princezna",
+        "Korunni princ"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "V jake jednotce je mereno takzvane \"gravitacni zrychleni\"?",
+      "answer": "m/s^2",
+      "options": [
+        "m/s^2",
+        "m/s",
+        "s/m",
+        "g/s"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Jak se jmenovala pohadka, ktera mela premieru 25. 12. 2022 na Ceske televizi jako tzv. vanocni pohadka?",
+      "answer": "krakonosovo tajemstvi",
+      "options": [
+        "krakonosovo tajemstvi",
+        "kouzla kralu",
+        "O vánoční hvězdě",
+        "O prahranych pantoflich"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Kolik vecernicku (serii) namluvila jirina bohdalova",
+      "answer": "7",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "8"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Jak se skupinove nazyvaji krivky: kruh, kruznice, parabola, hyperbola?",
+      "answer": "kuzelosecky",
+      "options": [
+        "kuzelosecky",
+        "polokrivky",
+        "plnousecky",
+        "oble krivky"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "ktera matematicka funkce se nezmeni vlivem integrace, ani derivace?",
+      "answer": "e^x",
+      "options": [
+        "e^x",
+        "x",
+        "e",
+        "x^x"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Ktery studentsky film ve sve kategorii jako jediny z ceska ziskal oscara?",
+      "answer": "ropaci",
+      "options": [
+        "ropaci",
+        "chobotnice",
+        "bahno od chlumce",
+        "rajska zahrada"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Ktery cesky film se za byvaleho rezimu dostal \"do trezoru\", ale diky svemu uniku a naslednymu uspechu byl posleze oficialne vypusten do kin?",
+      "answer": "Bony a klid",
+      "options": [
+        "Bony a klid",
+        "Kamarád do deště",
+        "Posledni sezona",
+        "Akce kulovy blesk"
+      ],
+      "points": 9000
+    }
+  ]
+}

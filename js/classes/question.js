@@ -154,7 +154,7 @@ class Question {
 
     renderBox(idt, id) {
         let x1 = document.createElement("div");
-        x1.classList.add("col-3")
+        x1.classList.add("col-4")
         x1.classList.add("question-box")
         x1.dataset.table = idt.toString();
         x1.dataset.id = id.toString();

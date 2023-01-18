@@ -1,0 +1,106 @@
+{
+  "name": "Dominik",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Jakou barvu ma kapsle, kterou neo sni ve filmu matrix?",
+      "answer": "Cervenou",
+      "options": [
+        "Cervenou",
+        "Modrou",
+        "Zlutou",
+        "Zelenou"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Jaka je maximalni povolena rychlost na silnici pro motorova vozidla ve meste bez upravy rychlosti?",
+      "answer": "80",
+      "options": [
+        "50",
+        "80",
+        "110",
+        "130"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jaky je rozdil (matematicky) mezi roky vydani 1. a druheho dilu filmu avatar?",
+      "answer": "13",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Na vicepruhych silncich, kde kontertne ma vznikat tzv. \"Zachranarska ulicka\" (z pohledu ridice)?",
+      "answer": "mezi prvnimi 2 pruhy",
+      "options": [
+        "mezi prvnimi 2 pruhy",
+        "v prvnim pruhu",
+        "mezi poslednimi 2 pruhy",
+        "co nejvice uprostred"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Na tripruhe silnici jednou 2 auta (jedno v levem pruhu, druhe v pravem). Obe se chteji zaradit do prostredniho pruhu, ktere z nich ma prednost?",
+      "answer": "prave",
+      "options": [
+        "prave",
+        "leve",
+        "neni definovano zakonem",
+        "to rychlejsi"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Kdo byl reziserem filmu Trosecnik, nebo Forest Gump?",
+      "answer": "Robert Zemeckis",
+      "options": [
+        "Robert Zemeckis",
+        "Steven Spielberg",
+        "James Cameron",
+        "Dominik Prochazka"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Jaké ovoce je pro kočku jedovaté?",
+      "answer": "hroznové víno",
+      "options": [
+        "jahody",
+        "borůvky",
+        "banány",
+        "hroznové víno"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Svým vlivem na kočky je známá šanta kočičí (Nepeta cataria). Jaká bylina, rostoucí nativně v ČR, má na kočky domácí obdobné účinky?",
+      "answer": "Kozlík lékařský (Valeriana officinalis)",
+      "options": [
+        "Hluchavka nachová (Lamium purpureum)",
+        "Kozlík lékařský (Valeriana officinalis)",
+        "Vlaštovičník větší (Chelidonium majus)",
+        "Violka obojetná (Viola ambigua)"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Kočky mohou na opatrovatele přenést prvoka, který u lidí vyvolává onemocnění. To u zdravých jedinců typicky nevyvolává podstatné problémy, ale je velmi nebezpečné pro imunodeficientní subjekty a pro plody gravidních subjektů. Toto onemocnění se nazývá:",
+      "answer": "Toxoplazmóza",
+      "options": [
+        "Tyroplazmóza",
+        "Trichomoniáza",
+        "Toxoplazmóza",
+        "Trixomonáza"
+      ],
+      "points": 9000
+    }
+  ]
+}

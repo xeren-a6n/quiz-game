@@ -6,9 +6,11 @@ class Game {
 
     loadPlayer(data) {
 
-        let p = new Player(name, color, textColor);
-        // p.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        // this.#players.push(p);
+        let p = new Player(data.name, data.backgroundColor, data.textColor);
+        for (const q of data.questions) {
+            p.addQuestion(new Question(q.points, q.question, q.options, q.answer))
+        }
+        this.#players.push(p);
     }
 
 

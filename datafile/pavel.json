@@ -1,0 +1,106 @@
+{
+  "name": "Pavel",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Ze ktereho filmu je znama fraze \"Here's Johnny!\"?",
+      "answer": "Osviceni",
+      "options": [
+        "Osviceni",
+        "Jeptiska",
+        "Žena v černém",
+        "Muzi v cernem"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Ktera kapela vydala skladbu  ‘Smells Like Teen Spirit’?",
+      "answer": "Nirvana",
+      "options": [
+        "Nirvana",
+        "Aerosmith",
+        "Pixies",
+        "Led Zeppelin"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jak se jmenoval prvni animovany celovecerni film? (snehurka a 7 trpasliku)",
+      "answer": "Snehurka a 7 trpasliku",
+      "options": [
+        "Snehurka a 7 trpasliku",
+        "Pinocchio",
+        "Petr Pan",
+        "Popelka"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Ktera hra podle \"The Game Awards\" vyhrala cenu v kategorii hra roku 2022?",
+      "answer": "Elden Ring",
+      "options": [
+        "Elden Ring",
+        "God of War Ragnarök",
+        "Stray",
+        "A Plague Tale: Requiem"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Jak se jemnuje hlavni robot z herni serie borderlands?",
+      "answer": "CL4P-TP",
+      "options": [
+        "CL4P-TP",
+        "R2-D2",
+        "DL6-HF",
+        "X Æ A-12"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Ktera televizni serie pouzivala hudbu ‘I’ll Be There For You’ jako znelku? ",
+      "answer": "pratele",
+      "options": [
+        "pratele",
+        "dva a pul chlapa",
+        "kutil Tim",
+        "Krok za krokem"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Kolik oscaru ziskal film Apollo 13?",
+      "answer": "2",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "zadny"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Marshall Bruce Mathers je znam spise pod jmenem?",
+      "answer": "Eminem",
+      "options": [
+        "Eminem",
+        "Ice-T",
+        "Jay-Z",
+        "Drake"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jak se nazyva sekvence klaves stisknutych na ovladaci: \"nahoru, nahoru, dolu, dolu, levo, pravo, levo, pravo, B, A\"?",
+      "answer": "konami code",
+      "options": [
+        "konami code",
+        "Kazuhisa code",
+        "neznamena to nic",
+        "cheat na auto v GTA"
+      ],
+      "points": 9000
+    }
+  ]
+}
