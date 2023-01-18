@@ -2,16 +2,17 @@ const timerTime = 20000;
 const timerRefreshRate = 50;
 
 class Timer {
-    constructor(onEnd) {
-        this.#onEnd = onEnd;
+    constructor(game) {
+        this.#game = game;
         this.reset();
     }
 
     #startTime
     #pausedTime
     #interval
-    #onEnd
+    #game
     #toReach
+    #domTimer = null;
 
     #stopInternal() {
         if(this.#interval !== null) {
@@ -22,7 +23,7 @@ class Timer {
 
     #startInternal() {
         if(this.#interval === null) {
-            this.#interval = setInterval(this.onPing, timerRefreshRate);
+            this.#interval = setInterval(this.onPing, timerRefreshRate, this);
         }
     }
 
@@ -31,6 +32,7 @@ class Timer {
         this.#toReach = timerTime;
         this.#pausedTime = null;
         this.#startTime = null;
+        this.redrawTimer();
     }
 
     add() {
@@ -67,19 +69,40 @@ class Timer {
         return Math.ceil(ms / 1000);
     }
 
-    onPing() {
-        if(this.getRemainingTime() === 0) {
-            this.pause();
-            this.#onEnd();
+    onPing(timer) {
+        if(timer.getRemainingTime() === 0) {
+            timer.pause();
+            timer.#game.timeout();
         }
-        this.redrawTimer();
+        timer.redrawTimer();
     }
 
     isRunning() {
         return this.#interval !== null;
     }
 
+    renderTimer() {
+        let t = document.createElement("div");
+        t.classList.add("row");
+        t.classList.add("my-2");
+        let c = document.createElement("div");
+        c.classList.add("col-12");
+        c.classList.add("bg-dark");
+        let h = document.createElement("h1");
+        h.classList.add("text-white");
+        this.#domTimer = h;
+        c.appendChild(h);
+        t.appendChild(c);
+        this.redrawTimer()
+        return t;
+    }
+
     redrawTimer() {
-        ///TODO timer
+        if(this.#domTimer === null) {
+            return;
+        }
+        this.#domTimer.innerHTML = "";
+        let txt = document.createTextNode(this.getRemainingTime().toString());
+        this.#domTimer.appendChild(txt);
     }
 }

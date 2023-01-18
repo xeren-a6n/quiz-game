@@ -18,6 +18,9 @@ class Game {
     #usedHelp = false;
 
     #nextPlayer() {
+        if(this.#currentQuestion !== null) {
+            return;
+        }
         this.#currentPlayer++;
         if(this.#currentPlayer >= this.#players.length) {
             this.#currentPlayer = 0;
@@ -26,24 +29,42 @@ class Game {
         this.#questionFinished = false;
         this.#currentQuestion = null;
         this.#usedHelp = false;
+
+        $(".player-table").slideUp();
+        $(this.getCurrentPlayer().getDomOfTable()).slideDown();
+        $(".player-card").removeClass("bg-dark");
+        $(".player-card").removeClass("bg-primary");
+        $(this.getCurrentPlayer().getDomOfBox()).addClass("bg-dark");
     }
 
     getCurrentPlayer() {
         return this.#players[this.#currentPlayer];
     }
 
-    chooseTable() {
-        if(this.#currentQuestion !== null) {
+    chooseTable(id) {
+        if(this.#currentQuestion !== null || this.#players[id].getDomOfTable().style.display !== "none") {
             return;
         }
-        ///TODO animation of changing table
+        $(".player-table").slideUp();
+        $(this.#players[id].getDomOfTable()).slideDown();
+        $(".player-card").removeClass("bg-primary");
+        if(this.#players[id] !== this.#currentPlayer) {
+            $(this.#players[id].getDomOfBox()).addClass("bg-primary");
+        }
+
     }
 
-    chooseQuestion() {
-        if(this.#currentQuestion !== null) {
+    chooseQuestion(table, question) {
+        let p = this.#players[table];
+        let q = p.getQuestion(question);
+        if(this.#currentQuestion !== null || !q.isOpen() || (p !== this.getCurrentPlayer() && (!p.isStealingEnabled() || !this.getCurrentPlayer().isStealingEnabled()))) {
             return;
         }
-        ///TODO swap screen to question choose and set choosen question
+        $(".player-table").slideUp();
+        this.#currentQuestion = q;
+        q.redrawAnswers();
+
+        $(q.getQuestionDom()).fadeIn();
     }
 
     skipTurn() {
@@ -65,7 +86,9 @@ class Game {
             return;
         }
         this.#timer.pause();
-        this.#currentQuestion.correctAnswer(this.getCurrentPlayer());
+        this.#currentQuestion.answered(this.getCurrentPlayer(), answerNumber);
+        this.getCurrentPlayer().redrawPlayer();
+        this.#questionFinished = true;
     }
 
     goodAnswer() {
@@ -74,6 +97,8 @@ class Game {
         }
         this.#timer.pause();
         this.#currentQuestion.correctAnswer(this.getCurrentPlayer());
+        this.getCurrentPlayer().redrawPlayer();
+        this.#questionFinished = true;
     }
 
     badAnswer() {
@@ -82,6 +107,16 @@ class Game {
         }
         this.#timer.pause();
         this.#currentQuestion.wrongAnswer();
+        this.#questionFinished = true;
+    }
+
+    nextPlayer() {
+        if(this.#currentQuestion === null || !this.#questionFinished) {
+            return;
+        }
+        $(this.#currentQuestion.getQuestionDom()).fadeOut();
+        this.#currentQuestion = null;
+        this.#nextPlayer();
     }
 
     timerAction() {
@@ -136,15 +171,46 @@ class Game {
         p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
         p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
 
+        //loading
+        let p3 = new Player("Veru", "black", "white");
+        p3.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+
+        //loading
+        let p4 = new Player("Tom", "white", "green");
+        p4.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
+
         this.#players.push(p1);
         this.#players.push(p2);
+        this.#players.push(p3);
+        this.#players.push(p4);
 
-        this.#timer = new Timer(this.timeout);
+        this.#timer = new Timer(this);
         let pl = document.getElementById("players");
         let g = document.getElementById("game");
+        g.appendChild(this.#timer.renderTimer());
+        let i = 0;
         for (const p of this.#players) {
-            pl.appendChild(p.renderPlayer());
-            g.appendChild(p.renderTable())
+            pl.appendChild(p.renderPlayer(i));
+            g.appendChild(p.renderTable(i))
+            i++;
+        }
+
+        for (const p of this.#players) {
+            p.renderQuestions(g);
         }
 
         $(this.getCurrentPlayer().getDomOfTable()).fadeIn();
