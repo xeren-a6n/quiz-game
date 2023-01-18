@@ -1,0 +1,62 @@
+{
+  "name": "Le Kit",
+  "backgroundColor": "black",
+  "textColor": "pink",
+  "questions": [
+    {
+      "question": "Is this a test?",
+      "answer": "most likely",
+      "options": [
+        "yes",
+        "most likely",
+        "probably not",
+        "no"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "What do all fish have in common?",
+      "answer": "gills",
+      "options": [
+        "fins",
+        "fishiness",
+        "your mother",
+        "gills"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Přes co stříkalo 333 stříbrných stříkaček?",
+      "answer": "333 stříbrných střech",
+      "options": [
+        "333 stříbrných řek",
+        "333 stříbrný břeh",
+        "333 stříbrných střech",
+        "333 stříbrných sket"
+      ],
+      "points": 9000
+    },
+    {
+      "question": "If you know yourself, but not the enemy,...",
+      "answer": "... for every victory gained, you will suffer a defeat.",
+      "options": [
+        "... you will be quite surprised.",
+        "... for every victory gained, you will suffer a defeat.",
+        "... for every piece taken, you will lose at least one.",
+        "... never gonna give you up, never gonna let you down..."
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Kolik žaludků má kráva?",
+      "answer": "3",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "points": 10000
+    }
+  ]
+}

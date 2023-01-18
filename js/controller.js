@@ -1,6 +1,12 @@
 {
     let g = new Game();
 
+    "datafile/sample-questions-kitty.json"
+
+    g.loadPlayer(data);
+
+    g.startup();
+
     $(".player-card").click(function () {
         g.chooseTable($(this).data("id"))
     });

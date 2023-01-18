@@ -1,12 +1,14 @@
 
 class Game {
     constructor() {
-        this.startup();
     }
 
-    loadPlayer(name, color, textColor, questions) {
+
+    loadPlayer(data) {
+
         let p = new Player(name, color, textColor);
-        this.#players.push(p);
+        // p.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
+        // this.#players.push(p);
     }
 
 
@@ -149,55 +151,6 @@ class Game {
 
 
     startup() {
-        //TODO proper loadind
-        //loading
-        let p1 = new Player("Otta", "red", "white");
-        p1.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(4000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p1.addQuestion(new Question(4000, "1+1 je?", ["1","2","3","4"], "2"))
-        //loading
-        let p2 = new Player("Domink", "blue", "white");
-        p2.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p2.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-
-        //loading
-        let p3 = new Player("Veru", "black", "white");
-        p3.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p3.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-
-        //loading
-        let p4 = new Player("Tom", "white", "green");
-        p4.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(1000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(2000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-        p4.addQuestion(new Question(3000, "1+1 je?", ["1","2","3","4"], "2"))
-
-        this.#players.push(p1);
-        this.#players.push(p2);
-        this.#players.push(p3);
-        this.#players.push(p4);
-
         this.#timer = new Timer(this);
         let pl = document.getElementById("players");
         let g = document.getElementById("game");
