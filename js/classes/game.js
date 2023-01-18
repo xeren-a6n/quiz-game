@@ -105,8 +105,9 @@ class Game {
         this.#questionFinished = true;
     }
 
+
     badAnswer() {
-        if(this.#currentQuestion === null || this.#questionFinished || this.#currentQuestion.isAnswersShown()) {
+        if(this.#currentQuestion === null || this.#questionFinished) {
             return;
         }
         this.#timer.pause();

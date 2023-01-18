@@ -63,8 +63,6 @@ class Question {
             if (answerNumber !== null) {
                 this.#answers.splice(answerNumber, 1);
             }
-            console.log(this.#answers);
-            console.log(this.#answers.length);
             if(this.#answers.length === 1) {
                 this.#open = false;
             } else {
