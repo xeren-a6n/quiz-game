@@ -200,7 +200,7 @@ class Game {
             return;
         }
         this.audio_bonus.play();
-        this.#timer.add();
+        this.#timer.add(true);
         this.#currentQuestion.showAnswers();
     }
 
@@ -225,5 +225,16 @@ class Game {
         $(this.getCurrentPlayer().getDomOfTable()).fadeIn();
         this.getCurrentPlayer().getDomOfBox().classList.add("bg-dark");
         this.audio_chosing.play();
+    }
+
+    printAllAnswers() {
+        let qs = [];
+        for (const p of this.#players) {
+            for (const q of p.getQuestions()) {
+                qs.push([p.getName(), q.getScore(), q.getAnswer()].join(","));
+            }
+        }
+        let s = qs.join("<BR>");
+        document.body.innerHTML = s;
     }
 }

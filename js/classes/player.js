@@ -101,4 +101,12 @@ class Player {
     getQuestion(id) {
         return this.#questions[id];
     }
+
+    getQuestions() {
+        return this.#questions;
+    }
+
+    getName() {
+        return this.#name;
+    }
 }

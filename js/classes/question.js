@@ -214,4 +214,12 @@ class Question {
     getQuestionDom() {
         return this.#domQuestion;
     }
+
+    getAnswer() {
+        return this.#correctAnswer;
+    }
+
+    getScore() {
+        return this.#score;
+    }
 }

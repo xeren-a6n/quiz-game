@@ -1,5 +1,6 @@
 var timerTime = 16000;
 var timerExtend = 14000;
+var timerExtendAnswers = 10000;
 const timerRefreshRate = 50;
 
 class Timer {
@@ -39,13 +40,18 @@ class Timer {
         this.#pausedTime = null;
         this.#startTime = null;
         this.audio_timer.load();
-        this.audio_timer.currentTime += 14;
+        this.audio_timer.currentTime += 30 - (timerTime / 1000);
         this.redrawTimer();
     }
 
-    add() {
-        this.#toReach += timerExtend;
-        this.audio_timer.currentTime -= 14;
+    add(answers = false) {
+        if(!answers) {
+            this.#toReach += timerExtend;
+            this.audio_timer.currentTime -= timerExtend / 1000;
+        } else {
+            this.#toReach += timerExtendAnswers;
+            this.audio_timer.currentTime -= timerExtendAnswers / 1000;
+        }
     }
 
     start() {
