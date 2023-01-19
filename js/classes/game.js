@@ -8,7 +8,7 @@ class Game {
         this.audio_wrong = new Audio('music/wrong.mp3');
         this.audio_chosing = new Audio('music/chosing.mp3');
         this.audio_slide = new Audio('music/slide.mp3');
-        this.audio_drum = new Audio('music/drum.mp3');
+        this.audio_bonus = new Audio('music/bonus.mp3');
         this.audio_chosing.loop = true;
     }
 
@@ -17,7 +17,7 @@ class Game {
     audio_wrong
     audio_chosing
     audio_slide
-    audio_drum
+    audio_bonus
 
     shuffle(array) {
         let currentIndex = array.length,  randomIndex;
@@ -106,7 +106,6 @@ class Game {
         this.audio_question.load();
         this.audio_chosing.pause();
         this.audio_question.play();
-        //this.audio_drum.play();
     }
 
     skipTurn() {
@@ -190,6 +189,7 @@ class Game {
         if(this.#currentQuestion === null || this.#questionFinished || this.#usedHelp) {
             return;
         }
+        this.audio_bonus.play();
         this.#usedHelp = true;
         this.#timer.add();
         this.#currentQuestion.timeExtend();
@@ -199,6 +199,7 @@ class Game {
         if(this.#currentQuestion === null || this.#questionFinished || this.#usedHelp || this.#currentQuestion.isAnswersShown()) {
             return;
         }
+        this.audio_bonus.play();
         this.#timer.add();
         this.#currentQuestion.showAnswers();
     }
