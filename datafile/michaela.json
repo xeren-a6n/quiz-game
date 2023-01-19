@@ -1,7 +1,7 @@
 {
   "name": "Michaela",
-  "backgroundColor": "black",
-  "textColor": "white",
+  "backgroundColor": "#02f771",
+  "textColor": "black",
   "questions": [
     {
       "question": "Jak se nazyva prestizni ceska filmova soutez, casto nazyvana jako \"cesky oskar\"?",

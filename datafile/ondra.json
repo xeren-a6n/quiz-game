@@ -1,7 +1,7 @@
 {
   "name": "Ondra",
-  "backgroundColor": "black",
-  "textColor": "white",
+  "backgroundColor": "#02d2f7",
+  "textColor": "black",
   "questions": [
     {
       "question": "Která zeme pouzivá vlajku, kde je jen jedna velká hvezda",

@@ -2,21 +2,21 @@
     let g = new Game();
 
 
-    // let files = [
-    //     "datafile/sample-questions-kitty.json",
-    //     "datafile/sample-questions-kitty.json",
-    //     "datafile/sample-questions-kitty.json"
-    // ];
-    //
     let files = [
-        "datafile/dan.json",
-        "datafile/domink.json",
-        "datafile/michaela.json",
-        "datafile/ondra.json",
-        "datafile/pavel.json",
-        "datafile/tomas.json",
-        "datafile/veru.json"
+        "datafile/sample-questions-kitty.json",
+        "datafile/sample-questions-kitty.json",
+        "datafile/sample-questions-kitty.json"
     ];
+
+    // let files = [
+    //     "datafile/dan.json",
+    //     "datafile/domink.json",
+    //     "datafile/michaela.json",
+    //     "datafile/ondra.json",
+    //     "datafile/pavel.json",
+    //     "datafile/tomas.json",
+    //     "datafile/veru.json"
+    // ];
 
     let promises = [];
 
