@@ -1,7 +1,7 @@
 {
   "name": "Dan",
-  "backgroundColor": "black",
-  "textColor": "white",
+  "backgroundColor": "#FFFF00",
+  "textColor": "black",
   "questions": [
     {
       "question": "Ktera automobilova spolecnost se zaslouzila \"udajne\" o tzv. elektronizaci aut?",

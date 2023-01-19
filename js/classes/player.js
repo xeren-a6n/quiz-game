@@ -65,6 +65,7 @@ class Player {
         let d = document.createElement("div");
         d.classList.add("py-2")
         d.classList.add("row")
+        d.classList.add("border")
         d.classList.add("player-table")
         d.dataset.id = id.toString();
         d.style.backgroundColor = this.#color;

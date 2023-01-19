@@ -1,6 +1,40 @@
 
 class Game {
     constructor() {
+        this.audio_question = new Audio('music/open_question.mp3');
+        this.audio_question.loop = true;
+
+        this.audio_correct = new Audio('music/correct.mp3');
+        this.audio_wrong = new Audio('music/wrong.mp3');
+        this.audio_chosing = new Audio('music/chosing.mp3');
+        this.audio_slide = new Audio('music/slide.mp3');
+        this.audio_drum = new Audio('music/drum.mp3');
+        this.audio_chosing.loop = true;
+    }
+
+    audio_question
+    audio_correct
+    audio_wrong
+    audio_chosing
+    audio_slide
+    audio_drum
+
+    shuffle(array) {
+        let currentIndex = array.length,  randomIndex;
+
+        // While there remain elements to shuffle.
+        while (currentIndex != 0) {
+
+            // Pick a remaining element.
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // And swap it with the current element.
+            [array[currentIndex], array[randomIndex]] = [
+                array[randomIndex], array[currentIndex]];
+        }
+
+        return array;
     }
 
 
@@ -55,7 +89,7 @@ class Game {
         if(this.#players[id] !== this.#currentPlayer) {
             $(this.#players[id].getDomOfBox()).addClass("bg-primary");
         }
-
+        this.audio_slide.play();
     }
 
     chooseQuestion(table, question) {
@@ -69,6 +103,10 @@ class Game {
         q.redrawAnswers();
 
         $(q.getQuestionDom()).fadeIn();
+        this.audio_question.load();
+        this.audio_chosing.pause();
+        this.audio_question.play();
+        //this.audio_drum.play();
     }
 
     skipTurn() {
@@ -76,13 +114,14 @@ class Game {
             return
         }
         this.#nextPlayer();
+        this.audio_slide.play();
     }
 
     timeout() {
         if(this.#currentQuestion === null || this.#questionFinished) {
             return;
         }
-        this.badAnswer();
+        this.badAnswer(true);
     }
 
     typedAnswer(answerNumber) {
@@ -90,7 +129,12 @@ class Game {
             return;
         }
         this.#timer.pause();
-        this.#currentQuestion.answered(this.getCurrentPlayer(), answerNumber);
+        let result = this.#currentQuestion.answered(this.getCurrentPlayer(), answerNumber);
+        if(result) {
+            this.audio_correct.play();
+        } else {
+            this.audio_wrong.play();
+        }
         this.getCurrentPlayer().redrawPlayer();
         this.#questionFinished = true;
     }
@@ -103,14 +147,18 @@ class Game {
         this.#currentQuestion.correctAnswer(this.getCurrentPlayer());
         this.getCurrentPlayer().redrawPlayer();
         this.#questionFinished = true;
+        this.audio_correct.play();
     }
 
 
-    badAnswer() {
+    badAnswer(by_timer = false) {
         if(this.#currentQuestion === null || this.#questionFinished) {
             return;
         }
-        this.#timer.pause();
+        if(!by_timer) {
+            this.#timer.pause();
+            this.audio_wrong.play();
+        }
         this.#currentQuestion.wrongAnswer();
         this.#questionFinished = true;
     }
@@ -122,6 +170,8 @@ class Game {
         $(this.#currentQuestion.getQuestionDom()).fadeOut();
         this.#currentQuestion = null;
         this.#nextPlayer();
+        this.audio_chosing.load();
+        this.audio_chosing.play();
     }
 
     timerAction() {
@@ -132,6 +182,7 @@ class Game {
             this.#timer.pause();
         } else {
             this.#timer.start();
+            this.audio_question.pause();
         }
     }
 
@@ -155,6 +206,7 @@ class Game {
 
     startup() {
         this.#timer = new Timer(this);
+        this.#players = this.shuffle(this.#players);
         let pl = document.getElementById("players");
         let g = document.getElementById("game");
         g.appendChild(this.#timer.renderTimer());
@@ -171,5 +223,6 @@ class Game {
 
         $(this.getCurrentPlayer().getDomOfTable()).fadeIn();
         this.getCurrentPlayer().getDomOfBox().classList.add("bg-dark");
+        this.audio_chosing.play();
     }
 }

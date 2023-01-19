@@ -1,7 +1,7 @@
 {
   "name": "Dominik",
-  "backgroundColor": "black",
-  "textColor": "white",
+  "backgroundColor": "#00FF00",
+  "textColor": "black",
   "questions": [
     {
       "question": "Jakou barvu ma kapsle, kterou neo sni ve filmu matrix?",

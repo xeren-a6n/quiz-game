@@ -1,21 +1,3 @@
-function shuffle(array) {
-    let currentIndex = array.length,  randomIndex;
-
-    // While there remain elements to shuffle.
-    while (currentIndex != 0) {
-
-        // Pick a remaining element.
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-        // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
-    }
-
-    return array;
-}
-
 const showAnswersPenalization = 0.5;
 const timeExtendPenalization = 0.8;
 
@@ -26,6 +8,25 @@ class Question {
         this.#text = text;
         this.#answers = answers;
         this.#correctAnswer = correctAnswer;
+    }
+
+
+    shuffle(array) {
+        let currentIndex = array.length,  randomIndex;
+
+        // While there remain elements to shuffle.
+        while (currentIndex != 0) {
+
+            // Pick a remaining element.
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // And swap it with the current element.
+            [array[currentIndex], array[randomIndex]] = [
+                array[randomIndex], array[currentIndex]];
+        }
+
+        return array;
     }
 
     /**
@@ -53,8 +54,10 @@ class Question {
     answered(player, answerNumber) {
         if(this.#answers[answerNumber] === this.#correctAnswer) {
             this.correctAnswer(player);
+            return true;
         } else {
             this.wrongAnswer(answerNumber);
+            return false;
         }
     }
 
@@ -140,7 +143,7 @@ class Question {
     }
 
     redrawAnswers() {
-        this.#answers = shuffle(this.#answers);
+        this.#answers = this.shuffle(this.#answers);
         let letters = ["A ", "B ", "C ", "D ", "E ", "F "];
         let i = 0;
         this.#domAnswers.innerHTML = "";
@@ -175,6 +178,8 @@ class Question {
         x1.dataset.id = id.toString();
         let x = document.createElement("div");
         x.classList.add("bg-white")
+        x.classList.add("border")
+        x.classList.add("border-dark")
         x.classList.add("my-2")
         let y = document.createElement("h1");
         x.appendChild(y);

@@ -1,12 +1,17 @@
-var timerTime = 20000;
-var timerExtend = 20000;
+var timerTime = 16000;
+var timerExtend = 14000;
 const timerRefreshRate = 50;
 
 class Timer {
     constructor(game) {
         this.#game = game;
+        this.audio_timer = new Audio('music/clock_ticking.mp3');
+        this.audio_drum = new Audio('music/drum.mp3');
         this.reset();
     }
+
+    audio_timer
+    audio_drum
 
     #startTime
     #pausedTime
@@ -33,11 +38,14 @@ class Timer {
         this.#toReach = timerTime;
         this.#pausedTime = null;
         this.#startTime = null;
+        this.audio_timer.load();
+        this.audio_timer.currentTime += 14;
         this.redrawTimer();
     }
 
     add() {
         this.#toReach += timerExtend;
+        this.audio_timer.currentTime -= 14;
     }
 
     start() {
@@ -49,13 +57,20 @@ class Timer {
             d -= this.#pausedTime - this.#startTime;
             this.#pausedTime = null;
         }
+        if(this.#startTime === null) {
+            this.audio_drum.play();
+        }
+        this.audio_timer.play();
         this.#startTime = d;
         this.#startInternal();
     }
 
-    pause() {
+    pause(by_timer = false) {
         this.#stopInternal();
         this.#pausedTime = (new Date()).getTime();
+        if(!by_timer) {
+            this.audio_timer.pause();
+        }
     }
 
     getRemainingTime() {
@@ -72,7 +87,7 @@ class Timer {
 
     onPing(timer) {
         if(timer.getRemainingTime() === 0) {
-            timer.pause();
+            timer.pause(true);
             timer.#game.timeout();
         }
         timer.redrawTimer();
