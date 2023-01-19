@@ -4,18 +4,18 @@
   "textColor": "black",
   "questions": [
     {
-      "question": "Jakou barvu ma kapsle, kterou neo sni ve filmu matrix?",
-      "answer": "Cervenou",
+      "question": "Jakou barvu má kapsle, kterou Neo sní ve filmu Matrix?",
+      "answer": "Červenou",
       "options": [
-        "Cervenou",
+        "Červenou",
         "Modrou",
-        "Zlutou",
+        "Žlutou",
         "Zelenou"
       ],
       "points": 1000
     },
     {
-      "question": "Jaka je maximalni povolena rychlost na silnici pro motorova vozidla ve meste bez upravy rychlosti?",
+      "question": "Jaka je maximální povolená rychlost na silnici pro motorová vozidla ve městě bez úpravy rychlosti?",
       "answer": "80",
       "options": [
         "50",
@@ -26,7 +26,7 @@
       "points": 2000
     },
     {
-      "question": "Jaky je rozdil (matematicky) mezi roky vydani 1. a druheho dilu filmu avatar?",
+      "question": "Jaky je rozdíl (matematicky) mezi roky vydání prvního a druhého dílu filmu Avatar?",
       "answer": "13",
       "options": [
         "10",
@@ -37,35 +37,35 @@
       "points": 3000
     },
     {
-      "question": "Na vicepruhych silncich, kde kontertne ma vznikat tzv. \"Zachranarska ulicka\" (z pohledu ridice)?",
-      "answer": "mezi prvnimi 2 pruhy",
+      "question": "Na vícepruhých silncích, kde konkrétně ma vznikat tzv. \"Záchranářská ulička\" (z pohledu řidiče)?",
+      "answer": "mezi 2 nejlevějšími pruhy",
       "options": [
-        "mezi prvnimi 2 pruhy",
-        "v prvnim pruhu",
-        "mezi poslednimi 2 pruhy",
-        "co nejvice uprostred"
+        "mezi 2 nejlevějšími pruhy",
+        "v nejlevějím pruhu",
+        "mezi posledními 2 pruhy",
+        "co nejvíce uprostřed"
       ],
       "points": 4000
     },
     {
-      "question": "Na tripruhe silnici jednou 2 auta (jedno v levem pruhu, druhe v pravem). Obe se chteji zaradit do prostredniho pruhu, ktere z nich ma prednost?",
-      "answer": "prave",
+      "question": "Na třípruhé silnici jednou 2 auta (jedno v levém pruhu, druhé v pravém). Obé se chtéjí zařadit do prostředního pruhu. Které z nich má přednost?",
+      "answer": "pravé",
       "options": [
-        "prave",
-        "leve",
-        "neni definovano zakonem",
-        "to rychlejsi"
+        "pravé",
+        "levé",
+        "není definováno zákonem",
+        "to rychlejši"
       ],
       "points": 5000
     },
     {
-      "question": "Kdo byl reziserem filmu Trosecnik, nebo Forest Gump?",
+      "question": "Kdo byl režisérem filmů \"Trosečník\" a \"Forest Gump\"?",
       "answer": "Robert Zemeckis",
       "options": [
         "Robert Zemeckis",
         "Steven Spielberg",
         "James Cameron",
-        "Dominik Prochazka"
+        "Dominik Procházka"
       ],
       "points": 6000
     },

@@ -4,18 +4,18 @@
   "textColor": "white",
   "questions": [
     {
-      "question": "Ze ktereho filmu je znama fraze \"Here's Johnny!\"?",
-      "answer": "Osviceni",
+      "question": "Ze kterého filmu je známá fráze \"Here's Johnny!\"?",
+      "answer": "Osvícení",
       "options": [
-        "Osviceni",
-        "Jeptiska",
+        "Osvícení",
+        "Jeptiška",
         "Žena v černém",
-        "Muzi v cernem"
+        "Muži v černém"
       ],
       "points": 1000
     },
     {
-      "question": "Ktera kapela vydala skladbu  ‘Smells Like Teen Spirit’?",
+      "question": "Která kapela vydala skladbu \"Smells Like Teen Spirit\"?",
       "answer": "Nirvana",
       "options": [
         "Nirvana",
@@ -26,10 +26,10 @@
       "points": 2000
     },
     {
-      "question": "Jak se jmenoval prvni animovany celovecerni film? (snehurka a 7 trpasliku)",
-      "answer": "Snehurka a 7 trpasliku",
+      "question": "Jak se jmenoval první animovaný celovečerní film?",
+      "answer": "Sněhurka a 7 trpaslíků",
       "options": [
-        "Snehurka a 7 trpasliku",
+        "Sněhurka a 7 trpaslíků",
         "Pinocchio",
         "Petr Pan",
         "Popelka"
@@ -37,7 +37,7 @@
       "points": 3000
     },
     {
-      "question": "Ktera hra podle \"The Game Awards\" vyhrala cenu v kategorii hra roku 2022?",
+      "question": "Která hra podle \"The Game Awards\" vyhrála cenu v kategorii \"hra roku 2022\"?",
       "answer": "Elden Ring",
       "options": [
         "Elden Ring",
@@ -48,7 +48,7 @@
       "points": 4000
     },
     {
-      "question": "Jak se jemnuje hlavni robot z herni serie borderlands?",
+      "question": "Jak se jemnuje hlavní robot z herni série Borderlands?",
       "answer": "CL4P-TP",
       "options": [
         "CL4P-TP",
@@ -59,29 +59,29 @@
       "points": 5000
     },
     {
-      "question": "Ktera televizni serie pouzivala hudbu ‘I’ll Be There For You’ jako znelku? ",
-      "answer": "pratele",
+      "question": "Která televizní série používala hudbu \"I’ll Be There For You\" jako znělku?",
+      "answer": "Přátelé",
       "options": [
-        "pratele",
-        "dva a pul chlapa",
-        "kutil Tim",
+        "Přátelé",
+        "Dva a pul chlapa",
+        "Kutil Tim",
         "Krok za krokem"
       ],
       "points": 6000
     },
     {
-      "question": "Kolik oscaru ziskal film Apollo 13?",
+      "question": "Kolik Oscarů získal film Apollo 13?",
       "answer": "2",
       "options": [
         "1",
         "2",
         "3",
-        "zadny"
+        "0"
       ],
       "points": 7000
     },
     {
-      "question": "Marshall Bruce Mathers je znam spise pod jmenem?",
+      "question": "Marshall Bruce Mathers je znám spíše pod jménem:",
       "answer": "Eminem",
       "options": [
         "Eminem",
@@ -92,12 +92,12 @@
       "points": 8000
     },
     {
-      "question": "Jak se nazyva sekvence klaves stisknutych na ovladaci: \"nahoru, nahoru, dolu, dolu, levo, pravo, levo, pravo, B, A\"?",
+      "question": "Jak se nazývá sekvence kláves stisknutých na ovladači: \"nahoru, nahoru, dolů, dolů, vlevo, vpravo, vlevo, vpravo, B, A\"?",
       "answer": "konami code",
       "options": [
         "konami code",
         "Kazuhisa code",
-        "neznamena to nic",
+        "neznamená to nic",
         "cheat na auto v GTA"
       ],
       "points": 9000

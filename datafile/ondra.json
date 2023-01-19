@@ -4,21 +4,21 @@
   "textColor": "black",
   "questions": [
     {
-      "question": "Která zeme pouzivá vlajku, kde je jen jedna velká hvezda",
+      "question": "Která země používá vlajku, na které je jen jedna velká hvězda?",
       "answer": "Vietnam",
       "options": [
-        "Cina",
+        "Čina",
         "Urugvaj",
         "Vietnam",
-        "Filipiny"
+        "Filipíny"
       ],
       "points": 1000
     },
     {
-      "question": "Po kolika dnech od svrzeni bombi na hirosimu byl proveden utok na Nagasaki",
+      "question": "Po kolika dnech od svržení bomby na Hirošimu byl proveden útok na Nagasaki?",
       "answer": "3",
       "options": [
-        "byli ve stejny den",
+        "ve stejný den",
         "1",
         "3",
         "4"
@@ -26,7 +26,7 @@
       "points": 2000
     },
     {
-      "question": "V jakém roce vysel film pčn prstenů, spolecenstvo prstenu",
+      "question": "V jakém roce vyšel film \"Pán prstenů: Společenstvo Prstenu\"?",
       "answer": "2001",
       "options": [
         "1998",
@@ -37,29 +37,29 @@
       "points": 3000
     },
     {
-      "question": "Ve kterem mesici byl proveden utok na pearl harbor",
+      "question": "Ve kterém měsíci byl proveden útok na Pearl Harbor?",
       "answer": "prosinec",
       "options": [
-        "zari",
-        "rijen",
+        "září",
+        "říjen",
         "listopad",
         "prosinec"
       ],
       "points": 4000
     },
     {
-      "question": "Jak se nazyva abeceda pouzivana k vizualni komunikace mezi 2 osobama pomoci pozice vlajek?",
+      "question": "Jak se nazýva abeceda používaná k vizuální komunikace mezi dvěma osobami pomocí pozice vlajek?",
       "answer": "semafor",
       "options": [
-        "vlajecka",
+        "vlaječka",
         "semafor",
-        "praporkova",
-        "ondrasovka"
+        "praporková",
+        "ondrášovka"
       ],
       "points": 5000
     },
     {
-      "question": "Kolik sipu zasahlo Boromira ve filmu, nez umrel?",
+      "question": "Kolik šípů zasáhlo Boromira ve filmu, nez zemřel?",
       "answer": "3",
       "options": [
         "2",
@@ -70,18 +70,18 @@
       "points": 6000
     },
     {
-      "question": "Jak se nazyvala operace, pri ktere nemecka vojska provadeli invazi do sovetskleho svazu?",
+      "question": "Jak se nazývala operace, při které německá vojska prováděla invazi do Sovetského svazu?",
       "answer": "Barbarossa",
       "options": [
         "Barbarossa",
-        "Beastmaster ",
-        "Deliverance ",
+        "Beastmaster",
+        "Deliverance",
         "Liberty Shield"
       ],
       "points": 7000
     },
     {
-      "question": "Jak se jmenuje orel, ktery zachranil Gandalfa z veze Ortahanku",
+      "question": "Jak se jmenuje orel, který zachránil Gandalfa z věže Ortahanku?",
       "answer": "Gwaihir",
       "options": [
         "Gwaihir",
@@ -92,10 +92,10 @@
       "points": 8000
     },
     {
-      "question": "Pouze 2 officiální vlajky obsahují draka, jedna z nich je vlajka walesu, která země má toho druhího? ",
-      "answer": "Bhutan",
+      "question": "Pouze 2 oficiální vlajky obsahují draka. Jedna z nich je vlajka Walesu, které zemi patří druhá?",
+      "answer": "Bhútán",
       "options": [
-        "Bhutan",
+        "Bhútán",
         "Vietnam",
         "Kuba",
         "Barma"
