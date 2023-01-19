@@ -4,18 +4,18 @@
   "textColor": "white",
   "questions": [
     {
-      "question": "Jak se nazyva Zákon, který upravuje pracovně právní vztahy?",
-      "answer": "Zakonik prace",
+      "question": "Jak se nazývá zákon, který upravuje pracovně-právní vztahy?",
+      "answer": "Zákoník práce",
       "options": [
-        "Zakonik prace",
-        "Tresni pravo",
+        "Zákoník práce",
+        "Trestní právo",
         "BOZP",
         "GDPR"
       ],
       "points": 1000
     },
     {
-      "question": "Kolik serii ma k dnesnimu dni serial upiri deniky?",
+      "question": "Kolik sérií má k dnešnímu dni seriál Upíří deníky?",
       "answer": "8",
       "options": [
         "8",
@@ -26,7 +26,7 @@
       "points": 2000
     },
     {
-      "question": "Jak se rika zamestnanci, ktery casto strida zamestnani?",
+      "question": "Jak se říká zaměstnanci, který často střídá zaměstnání?",
       "answer": "fluktuant",
       "options": [
         "frikulín",
@@ -37,7 +37,7 @@
       "points": 3000
     },
     {
-      "question": "Za koho se v serialu upiri deniky provdala Caroline?",
+      "question": "Za koho se v seriálu \"Upíří deníky\" provdala Caroline?",
       "answer": "Za Stefana",
       "options": [
         "Za Damona",
@@ -48,18 +48,18 @@
       "points": 4000
     },
     {
-      "question": "Kde pracuji dle HR tzv. \"Bile limecky\"?",
-      "answer": "v kancelari",
+      "question": "Kde pracuji dle HR tzv. \"Bílé límečky\"?",
+      "answer": "v kanceláři",
       "options": [
         "v dole",
-        "v dilne",
-        "v kancelari",
-        "nepracuji"
+        "v dílně",
+        "v kanceláři",
+        "nepracují"
       ],
       "points": 5000
     },
     {
-      "question": "Jak se jmenuje herecka hlavni postavy v serialu upri deniky? (Nina Dobrev)",
+      "question": "Jak se jmenuje herečka hlavní postavy v seriálu \"Upíří deníky\"?",
       "answer": "Nina Dobrev",
       "options": [
         "Nina Dobrev",
@@ -70,18 +70,18 @@
       "points": 6000
     },
     {
-      "question": "Jive se radi mezi latisnko americke tance, i kdyz nepochazi vylozene z latisnke zeme, ze kterte zeme pochazi?",
+      "question": "Jive se řadí mezi latisnko-americké tance, i když nepochází z Latinské Ameriky. Ze které země pochází?",
       "answer": "USA",
       "options": [
         "USA",
         "Kanada",
-        "Recko",
-        "Australie"
+        "Řecko",
+        "Austrálie"
       ],
       "points": 7000
     },
     {
-      "question": "Hudba jakeho taktu hraje, kdyz se tanci tanec \"Paso doble\"?",
+      "question": "Hudba jakého taktu hraje, když se tančí tanec \"Paso doble\"?",
       "answer": "2/4",
       "options": [
         "1/4",
@@ -92,7 +92,7 @@
       "points": 8000
     },
     {
-      "question": "tanec Samba ma nekolik zakladnich kroku, jeden z nich se nazyva \"Bota ...\"?",
+      "question": "Tanec Samba má několik základních kroků, jeden z nich se nazývá \"Bota ...\"?",
       "answer": "Fogo",
       "options": [
         "Fogo",

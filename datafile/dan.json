@@ -4,7 +4,7 @@
   "textColor": "black",
   "questions": [
     {
-      "question": "Ktera automobilova spolecnost se zaslouzila \"udajne\" o tzv. elektronizaci aut?",
+      "question": "Která automobilová společnost se \"údajně\" zasloužila o tzv. elektronizaci aut?",
       "answer": "Tesla",
       "options": [
         "Tesla",
@@ -15,7 +15,7 @@
       "points": 1000
     },
     {
-      "question": "Kolik prirozenych satelitu ma planeta zeme?",
+      "question": "Kolik přirozenych satelitů má planeta Země?",
       "answer": "1",
       "options": [
         "zadny",
@@ -26,7 +26,7 @@
       "points": 2000
     },
     {
-      "question": "Techno, Electro, House spadaji do jake kategorie hudby?",
+      "question": "Techno, Electro a House spadají do jaké kategorie hudby?",
       "answer": "EDM",
       "options": [
         "EDM",
@@ -37,18 +37,18 @@
       "points": 3000
     },
     {
-      "question": "Mezi jakymi planetami se nachazi tzv. Velky pas asteroidu?",
-      "answer": "mars a jupiter",
+      "question": "Mezi jakými planetami se nacházi tzv. Velký pás asteroidů?",
+      "answer": "Mars a Jupiter",
       "options": [
-        "mars a jupiter",
-        "saturn a uran",
-        "uran a neptun",
-        "jupiter a saturn"
+        "Mars a Jupiter",
+        "Saturn a Uran",
+        "Uran a Neptun",
+        "Jupiter a Saturn"
       ],
       "points": 4000
     },
     {
-      "question": "Od ktereho interpreta je skladba Faded?",
+      "question": "Od kterého interpreta je skladba \"Faded?\"",
       "answer": "Alan Walker",
       "options": [
         "Alan Walker",
@@ -59,29 +59,29 @@
       "points": 5000
     },
     {
-      "question": "Co jsou ridici v cesku povinni mitpo celou dobu zapnute od roku 2006?",
-      "answer": "predni svetla",
+      "question": "Co jsou od roku 2006 řidiči v Česku povinni mít zapnuté po celou dobu jízdy?",
+      "answer": "předni světla",
       "options": [
-        "predni svetla",
-        "bezpecnostni pasy",
+        "předni světla",
+        "bezpečnostní pásy",
         "radio",
-        "vysilac polohy vozidla pro pripad nehody"
+        "vysílač polohy vozidla pro případ nehody"
       ],
       "points": 6000
     },
     {
-      "question": "Od ktereho roku pluto neni uznavano jako planeta?",
+      "question": "Od kterého roku není Pluto uznáváno jako planeta?",
       "answer": "2006",
       "options": [
         "2006",
         "2008",
         "2009",
-        "pluto je planeta"
+        "Pluto je planeta"
       ],
       "points": 7000
     },
     {
-      "question": "\"PLUR\" je takzava filozofie EDM. Co simbolizuje v teto zkratce pismeno L (Love)",
+      "question": "\"PLUR\" je takzvaná filozofie EDM. Co symbolizuje v této zkratce písmeno L?",
       "answer": "Love",
       "options": [
         "Love",
@@ -92,7 +92,7 @@
       "points": 8000
     },
     {
-      "question": "Ve kterem roce byl udelen patent na prvni automatickou prevodovku (1921)",
+      "question": "Ve kterém roce byl udělen patent na první automatickou převodovku?",
       "answer": "1921",
       "options": [
         "1921",
