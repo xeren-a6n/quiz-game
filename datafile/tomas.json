@@ -4,18 +4,18 @@
   "textColor": "black",
   "questions": [
     {
-      "question": "Syn Michael popsal uspech sveho otce ve knize 'kmotr' frazi: Udela jim nabidku...?",
-      "answer": "kterou nebudou moci odmitnout",
+      "question": "Syn Michael popsal úspěch svého otce ve knize 'Kmotr' frází: Udělá jim nabídku...?",
+      "answer": "... kterou nebudou moci odmítnout.",
       "options": [
-        "kterou nebudou moci odmitnout",
-        "kterou musi odmitnout",
-        "ktere nejde odolat",
-        "ktera jim naplni bricho"
+        "... kterou nebudou moci odmítnout.",
+        "... kterou musí odmítnout.",
+        "... které nejde odolat.",
+        "... která jim naplní břicho."
       ],
       "points": 1000
     },
     {
-      "question": "V jakém roce vysel prvni dil serialu jmenuju se Earl?",
+      "question": "V jakém roce vyšel první díl seriálu \"Jmenuju se Earl\"?",
       "answer": "2005",
       "options": [
         "2001",
@@ -26,7 +26,7 @@
       "points": 2000
     },
     {
-      "question": "Jak v seriialu southpark říká Stanovi jeho dědeček?",
+      "question": "Jak v seriálu Southpark říká Stanovi jeho dědeček?",
       "answer": "Billy",
       "options": [
         "Billy",
@@ -37,7 +37,7 @@
       "points": 3000
     },
     {
-      "question": "Jak se jmenuje v seriale jmenuju se earl Earluv bratr?",
+      "question": "Jak se jmenuje v seriálu \"Jmenuju se Earl\" Earlův bratr?",
       "answer": "Randy",
       "options": [
         "Darnel",
@@ -48,7 +48,7 @@
       "points": 4000
     },
     {
-      "question": "Jak se jinak rika \"zakonu mlceni\"?",
+      "question": "Jak se jinak říká \"zákonu mlčení\"?",
       "answer": "Omerta",
       "options": [
         "Omerta",
@@ -59,7 +59,7 @@
       "points": 5000
     },
     {
-      "question": "Jak se jmenuje v seriale \"jmenuju se earl\" Earlova matka?",
+      "question": "Jak se jmenuje v seriálu  \"Jmenuju se Earl\" Earlova matka?",
       "answer": "Kay",
       "options": [
         "Kay",
@@ -70,7 +70,7 @@
       "points": 6000
     },
     {
-      "question": "Vito Corleone z knihy \"kmotr\" mel jako zlodejicek 2 partnery, byl to Tesio a...?",
+      "question": "Vito Corleone z knihy \"Kmotr\" měl jako zlodějíček 2 partnery, byli to Tesio a...?",
       "answer": "Clemenza",
       "options": [
         "Clemenza",
@@ -81,7 +81,7 @@
       "points": 7000
     },
     {
-      "question": "Jak se jmenuje v serialu southpark Butters svým pravým krestnim jménem?",
+      "question": "Jak se jmenuje v seriálu \"Southpark\" postava Butters pravým křestním jménem?",
       "answer": "Leopold",
       "options": [
         "Leopold",
@@ -92,7 +92,7 @@
       "points": 8000
     },
     {
-      "question": "Jaké je v seriialu southpark pravé celé jméno Chefa?",
+      "question": "Jaké je v seriálu \"Southpark\" pravé celé jméno Chefa?",
       "answer": "Jerome McElroy",
       "options": [
         "Jerome McElroy",
