@@ -9,13 +9,13 @@
     // ];
 
     let files = [
-        "datafile/axinel.json",
-        "datafile/dan.json",
-        "datafile/jirik.json",
-        "datafile/maty.json",
-        "datafile/eliska.json",
-        "datafile/lenka.json",
-        "datafile/vasik.json"
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/axinel.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/dan.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/jirik.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/maty.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/eliska.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/lenka.json",
+        "https://raw.githubusercontent.com/xeren-a6n/quiz-game/master/datafile/vasik.json"
     ];
 
     let promises = [];
@@ -29,54 +29,57 @@
     }
 
     Promise.all(promises).then(function() {
+	    if(false) {
+		g.printAllAnswers();
+	} else {
+        	g.startup();
 
-        g.startup();
+		$(".player-card").click(function () {
+		    g.chooseTable($(this).data("id"))
+		});
+		$(".question-box").click(function () {
+		    g.chooseQuestion($(this).data("table"), $(this).data("id"))
+		});
 
-        $(".player-card").click(function () {
-            g.chooseTable($(this).data("id"))
-        });
-        $(".question-box").click(function () {
-            g.chooseQuestion($(this).data("table"), $(this).data("id"))
-        });
-
-        $(document).keypress(function (e) {
-            let k = e.originalEvent.key;
-            switch (k) {
-                case "a":
-                    g.typedAnswer(0);
-                    break;
-                case "b":
-                    g.typedAnswer(1);
-                    break;
-                case "c":
-                    g.typedAnswer(2);
-                    break;
-                case "d":
-                    g.typedAnswer(3);
-                    break;
-                case "t":
-                    g.addTime();
-                    break;
-                case "s":
-                    g.skipTurn();
-                    break;
-                case " ":
-                    g.timerAction();
-                    break;
-                case "Enter":
-                    g.nextPlayer();
-                    break;
-                case "+":
-                    g.goodAnswer();
-                    break;
-                case "-":
-                    g.badAnswer();
-                    break;
-                case "z":
-                    g.showAnswers();
-                    break;
-            }
-        });
+		$(document).keypress(function (e) {
+		    let k = e.originalEvent.key;
+		    switch (k) {
+		        case "1":
+		            g.typedAnswer(0);
+		            break;
+		        case "2":
+		            g.typedAnswer(1);
+		            break;
+		        case "3":
+		            g.typedAnswer(2);
+		            break;
+		        case "4":
+		            g.typedAnswer(3);
+		            break;
+		        case "/":
+		            g.addTime();
+		            break;
+		        case "6":
+		            g.skipTurn();
+		            break;
+		        case "0":
+		            g.timerAction();
+		            break;
+		        case "Enter":
+		            g.nextPlayer();
+		            break;
+		        case "+":
+		            g.goodAnswer();
+		            break;
+		        case "-":
+		            g.badAnswer();
+		            break;
+		        case "*":
+		            g.showAnswers();
+		            break;
+		    }
+		});	
+	}		
     });
 }
 
