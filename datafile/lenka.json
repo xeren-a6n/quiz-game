@@ -1,0 +1,106 @@
+{
+  "name": "Lenka",
+  "backgroundColor": "blue",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Jaký je maximální povolený rychlostní limit pro osobní automobily na městských silnicích v obci?",
+      "answer": "50 km/h",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Jaký programovací jazyk je často používán pro tvorbu webových stránek a aplikací, a je známý svým značkovacím systémem?",
+      "answer": "HTML/CSS",
+      "options": [
+        "HTML/CSS",
+        "Java",
+        "Python",
+        "Ruby"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jaký orgán je zodpovědný za čištění krve od škodlivých látek a produkuje žluč, která pomáhá trávení?",
+      "answer": "Játra",
+      "options": [
+        "Játra",
+        "Slezina",
+        "Srdce",
+        "Ledviny"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Kterými barvami jsou obvykle označeny dopravní značky kategorie upozornění a zákazů?",
+      "answer": "Červené a bílé",
+      "options": [
+        "Červené a bílé",
+        "Modré a bílé",
+        "Černé a žluté",
+        "Oranžové a černé"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Jakou funkci označíme v programování za \"rekurzivní\"?",
+      "answer": "Funkce volající sebe sama",
+      "options": [
+        "Funkce volající sebe sama",
+        "Funkci obsahující ciklus",
+        "Funkci používající knihovnu rekurzí",
+        "Funkci řešící chyby v kódu"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Co je základní jednotkou dědičnosti, která obsahuje genetické informace v lidském těle?",
+      "answer": "Chromozom",
+      "options": [
+        "Protein",
+        "Chromozom",
+        "Enzym",
+        "Hormon"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Co znamená, když na semaforu svítí zároveň červené a žluté světlo?",
+      "answer": "Připravte se na odjezd. Brzo se objeví zelené světlo.",
+      "options": [
+        "Připravte se na odjezd. Brzo se objeví zelené světlo.",
+        "Připravte se na zastavení, protože se světlo chystá změnit na červené.",
+        "Připravte se na rychlý odjezd, protože za váma jede záchranka.",
+        "Jedná se o stav, který by na semaforu neměl být."
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Co znamená zkratka \"IDE\" ve světě programování? (celý anglický název)",
+      "answer": "Integrated Development Environment",
+      "options": [
+        "Integrated Development Environment",
+        "Internet Download Engine",
+        "Intranet Data Exchange",
+        "Interactive Debugging Environment"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jak se nazývá proces, při kterém tělo reguluje hladinu cukru v krvi pomocí hormonu inzulínu?",
+      "answer": "Homeostáza",
+      "options": [
+        "Homeostáza",
+        "Osmóza",
+        "Fotosyntéza",
+        "Glukoneogeneze"
+      ],
+      "points": 9000
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Eliška",
+  "backgroundColor": "white",
+  "textColor": "black",
+  "questions": [
+    {
+      "question": "Kdo je tzv. \"organizátor trestného činu\" dle trestního zákoníku?",
+      "answer": "Ten kdo ho plánoval",
+      "options": [
+        "Ten kdo ho plánoval",
+        "Poškozený činem",
+        "Vyšetřovatel činu",
+        "Ten kdo čin překazil "
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Ve které zemi se seriál Jane the virgin odehrává?",
+      "answer": "Amerika",
+      "options": [
+        "Amerika",
+        "Německo",
+        "Austálie",
+        "Česko"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "K čemu slouží poslední vůle v rámci zákonů o dědictví?",
+      "answer": "K rozdělení majetku po smrti",
+      "options": [
+        "K určení opatrovníka nezletilých dětí",
+        "K rozdělení majetku po smrti",
+        "K uzákonění manželství",
+        "K vyřešení pracovních sporů"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Kolik let musí být pachateli, aby mu bylo možné uložit trest v trestní sazbě podle trestního zákoníku?",
+      "answer": "18",
+      "options": [
+        "Je to jedno, vždy je odpovědný.",
+        "15",
+        "18",
+        "21"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Od kolika let je osoba v Čr oprávněná napsat si závěť?",
+      "answer": "15",
+      "options": [
+        "Na věku nezáleží ",
+        "15",
+        "20",
+        "25"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "V kterém roce byl zakázán trest smrti v ČR",
+      "answer": "1990/91",
+      "options": [
+        "1990/91",
+        "1961/62",
+        "1820/21",
+        "Nikdy zrušen nebyl"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Jaké je jméno Jane první noveli v seriálu Jane the virgin, která byla vydána i jako kniha ve skutečnosti?",
+      "answer": "Snow falling",
+      "options": [
+        "Snow falling",
+        "Golden Globe",
+        "Miami time",
+        "Heart peak"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "V jaké situaci se dědí v tzv druhé dědičké třídě? Když je neboštík....",
+      "answer": "Bez dětí",
+      "options": [
+        "Zavražděn",
+        "Bez dětí",
+        "Již po pohřbu",
+        "Zatížen dulhy přesahující jeden milion"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jaké IQ má Luisa v seriálu Jane the virgin?",
+      "answer": "152",
+      "options": [
+        "152",
+        "136",
+        "58",
+        "záporné"
+      ],
+      "points": 9000
+    }
+  ]
+}

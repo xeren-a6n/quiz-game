@@ -1,0 +1,106 @@
+{
+  "name": "Vašek",
+  "backgroundColor": "#ff4500",
+  "textColor": "black",
+  "questions": [
+    {
+      "question": "Jaký je název populární střílečky z prvního pohledu z 90. let, kde hráč ovládá postavu jménem Duke Nukem?",
+      "answer": "Duke Nukem 3D",
+      "options": [
+        "Duke Nukem 3D",
+        "Doom",
+        "Quake",
+        "Wolfenstein 3D"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Jak se jmenuje hlavní hrdina a kapitán pirátské posádky v seriálu One Piece?",
+      "answer": "Luffy D. Monkey",
+      "options": [
+        "Luffy D. Monkey",
+        "Roronoa Zoro",
+        "Sanji Vinsmoke",
+        "Trafalgar Law"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Kdo zrežíroval původní film \"Vetřelec\" (Alien) z roku 1979?",
+      "answer": "Ridley Scott",
+      "options": [
+        "Ridley Scott",
+        "Steven Spielberg",
+        "James Cameron",
+        "George Lucas"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Co je to \"One Piece\", co hledá hlavní posádka v seriálu?",
+      "answer": "Poklad ukrytý na ostrově Rafte",
+      "options": [
+        "Poklad ukrytý na ostrově Rafte",
+        "Legendární meč",
+        "Kletba, kterou lze zlomit",
+        "Královský trůn Grand Line"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Která hra z 90. let byla známá tím, že hráči mohli střílet proti hordám démonů ve fiktivním sci-fi světě?",
+      "answer": "Doom",
+      "options": [
+        "Doom",
+        "Half-Life",
+        "Unreal Tournament",
+        "GoldenEye 007"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Jak se nazývá hlavní druh vetřelce (alien) v sérii filmů \"Alien\"?",
+      "answer": "Xenomorph",
+      "options": [
+        "Xenomorph",
+        "Predator",
+        "Facehugger",
+        "E.T."
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Která herečka hrála hlavní roli Ellen Ripley v originálním filmu \"Vetřelec\" (Alien) a stala se ikonickou postavou v sérii?",
+      "answer": "Sigourney Weaver",
+      "options": [
+        "Sigourney Weaver",
+        "Linda Hamilton",
+        "Meryl Streep",
+        "Helen Mirren"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Jaký byl název populární střílečky z 90. let, která se odehrávala ve vesmíru a umožňovala hráčům volně prozkoumávat planety a vesmírné stanice?",
+      "answer": "Wing Commander",
+      "options": [
+        "Star Fox",
+        "StarCraft",
+        "Wing Commander",
+        "Descent"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jak se jmenuje velryba, která čeká na návrat \"Rumbar\" pirátů v seriálu one piece?",
+      "answer": "Laboon",
+      "options": [
+        "Laboon",
+        "Babon",
+        "Lagann",
+        "Gundam"
+      ],
+      "points": 9000
+    }
+  ]
+}

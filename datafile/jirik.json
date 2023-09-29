@@ -1,0 +1,106 @@
+{
+  "name": "Jiřík",
+  "backgroundColor": "grey",
+  "textColor": "black",
+  "questions": [
+    {
+      "question": "Která země byla považována za hlavního spojence Německa během 2. světové války a zemi původu fašizmu?",
+      "answer": "Itálie",
+      "options": [
+        "Itálie",
+        "Sovětský svaz",
+        "Francie",
+        "Spojené království"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Který kontinent je nejmenší podle rozlohy?",
+      "answer": "Austrálie",
+      "options": [
+        "Jižní Amerika",
+        "Austrálie",
+        "Afrika",
+        "Antarktida"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Která divadelní hra Járy Cimrmana popisuje příběh českého učitele, který založil hudební orchestr v africké vesnici a snaží se naučit místní obyvatele hrát na hudební nástroje?",
+      "answer": "Afrika",
+      "options": [
+        "Dobytí severního pólu",
+        "Afrika",
+        "Lijavec",
+        "Záskok"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Která řeka protéká městem Paříž a je známá jako \"Paname\"?",
+      "answer": "Seina",
+      "options": [
+        "Temže",
+        "Rýn",
+        "Seina",
+        "Dunaj"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Kdy začala 2. světová válka? (celé datum)",
+      "answer": "1. září 1939",
+      "options": [
+        "1. září 1939",
+        "28. června 1914",
+        "7. prosince 1941",
+        "11. listopadu 1918"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Který vynález Jára Cimrman stovřil těsně po jeho patentování Alfredem Nobelem?",
+      "answer": "Dynamit",
+      "options": [
+        "Dynamit",
+        "Telefon",
+        "Parní lokomotiva",
+        "Dvojdílné plavky"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Který mořský proud má zásadní vliv na podnebí západního pobřeží Evropy a přináší teplé vody z Mexického zálivu?",
+      "answer": "Golfský proud",
+      "options": [
+        "Golfský proud",
+        "Kanárský proud",
+        "Severoatlantický proud",
+        "Bengálský proud"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Jak se ve hře \"Dobytí severního pólu\" nazývá jev, kdy se ledovec i se členy výpravy pohybuje směrem k severu? ",
+      "answer": "drift",
+      "options": [
+        "migrace",
+        "drift",
+        "proudění",
+        "lavina"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jaký byl kódový název pro spojeneckou invazi do Normandie v roce 1944?",
+      "answer": "Operace Overlord",
+      "options": [
+        "Operace Barbarossa",
+        "Operace Overlord",
+        "Operace Market Garden",
+        "Operace Torch"
+      ],
+      "points": 9000
+    }
+  ]
+}

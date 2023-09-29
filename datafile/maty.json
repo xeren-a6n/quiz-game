@@ -1,0 +1,106 @@
+{
+  "name": "Maty",
+  "backgroundColor": "pink",
+  "textColor": "black",
+  "questions": [
+    {
+      "question": "Jaký kontinent je domovem Pandarenů v Warcraft světě?",
+      "answer": "xxx",
+      "options": [
+        "Kalimdor",
+        "Eastern Kingdoms",
+        "Northrend",
+        "Pandaria"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Jaký je celkový cíl v hře League of Legends pro vyhrání jedné hry?",
+      "answer": "Zničit nepřátelský Nexus",
+      "options": [
+        "Zničit nepřátelský Nexus",
+        "Postavit co nejvíce věží",
+        "Získat co nejvíce zlatých",
+        "Zabít co nejvíce nepřátelských hráčů"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jaký je druhový název (kategorie, do které spadá) pro prvního Pokémona v Pokédexu, Bulbasaura? (jsou dva)",
+      "answer": "Tráva/Jed",
+      "options": [
+        "Tráva/Jed",
+        "Ohen/Voda",
+        "Elektro/Normální",
+        "Rána/Létající"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Kdo je zakladatelem hry League of Legends? (firma)",
+      "answer": "Riot Games",
+      "options": [
+        "Valve Corporation",
+        "Blizzard Entertainment",
+        "Riot Games",
+        "Electronic Arts"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Jaký druh stvoření je Illidan Stormrage v Warcraft světě?",
+      "answer": "Elf",
+      "options": [
+        "Ork",
+        "Elf",
+        "Dračíkin",
+        "Gnóm"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Který Pokémon je také známý jako \"vůdce včel,\" kvůli svému vzhledu a schopnosti vytvářet roje malých kopií sebe sama?",
+      "answer": "Beedrill",
+      "options": [
+        "Charizard",
+        "Beedrill",
+        "Butterfree",
+        "Pidgeot"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Který hrdina v League of Legends disponuje schopností s názvem \"Chronobreak\", což mu umožňuje vrátit se zpět v čase a uzdravit se nebo se vrátit na určité místo na mapě?",
+      "answer": "Ekko",
+      "options": [
+        "Ekko",
+        "Yasuo",
+        "Zed",
+        "Azir"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Jaký je název Pokémona v Pokédexu s číslem 145 (v gen1), který má podobu žlutého ptáka a je elektrickým Pokémonem?",
+      "answer": "Zapdos",
+      "options": [
+        "Zapdos",
+        "Pidgey",
+        "Spearow",
+        "Farfetch'd"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jaká je první úroveň, kde můžete použít Druids of the Claw v kampani Night Elf v \"Reign of Chaos\" (warcraft 3)?",
+      "answer": "A Destiny of Flame and Sorrow",
+      "options": [
+        "Brothers in Blood",
+        "A Destiny of Flame and Sorrow",
+        "Archimonde's Ascent",
+        "The Awakening of Stormrage"
+      ],
+      "points": 9000
+    }
+  ]
+}

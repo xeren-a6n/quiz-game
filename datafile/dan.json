@@ -1,104 +1,104 @@
 {
   "name": "Dan",
-  "backgroundColor": "#FFFF00",
-  "textColor": "black",
+  "backgroundColor": "#8a0303",
+  "textColor": "white",
   "questions": [
     {
-      "question": "Která automobilová společnost se \"údajně\" zasloužila o tzv. elektronizaci aut?",
-      "answer": "Tesla",
+      "question": "Kdo hraje roli Iron Mana v Marvel Cinematic Universe?",
+      "answer": "Robert Downey Jr.",
       "options": [
-        "Tesla",
-        "Volkswagen",
-        "Volvo",
-        "Nissan"
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Chris Evans",
+        "Mark Ruffalo"
       ],
       "points": 1000
     },
     {
-      "question": "Kolik přirozenych satelitů má planeta Země?",
-      "answer": "1",
+      "question": "Jaký je název hlavního ostrova, kde se nachází Toa Metru, který zaroveň tento ostrov chrání?",
+      "answer": "Metru Nui",
       "options": [
-        "zadny",
-        "1",
-        "2",
-        "3"
+        "Metru Nui",
+        "Mata Nui",
+        "Voya Nui",
+        "Mahri Nui"
       ],
       "points": 2000
     },
     {
-      "question": "Techno, Electro a House spadají do jaké kategorie hudby?",
-      "answer": "EDM",
+      "question": "Jaké stvoření je zapečetěno v Narutovy?",
+      "answer": "Kyuubi (Devítiocasá liška)",
       "options": [
-        "EDM",
-        "Hip Hop",
-        "Metal",
-        "Rock"
+        "Kyuubi (Devítiocasá liška)",
+        "Gama Sennin (Křepelčí eremita)",
+        "Shukaku (Devítocípá liška)",
+        "Manda (Hadí král)"
       ],
       "points": 3000
     },
     {
-      "question": "Mezi jakými planetami se nacházi tzv. Velký pás asteroidů?",
-      "answer": "Mars a Jupiter",
+      "question": "Kdo je hlavním protivníkem Toa v originálním příběhu Bionicle?",
+      "answer": "Makuta",
       "options": [
-        "Mars a Jupiter",
-        "Saturn a Uran",
-        "Uran a Neptun",
-        "Jupiter a Saturn"
+        "Makuta",
+        "Rahi",
+        "Vezon",
+        "Teridax"
       ],
       "points": 4000
     },
     {
-      "question": "Od kterého interpreta je skladba \"Faded?\"",
-      "answer": "Alan Walker",
+      "question": "Jakým materiálem je vyroben Mjolnir, Thorův kladivo?",
+      "answer": "Uru",
       "options": [
-        "Alan Walker",
-        "Klayton",
-        "Deadmau5",
-        "Danda Masovic"
+        "Uru",
+        "Adamantium",
+        "Vibranium",
+        "Palladium"
       ],
       "points": 5000
     },
     {
-      "question": "Co jsou od roku 2006 řidiči v Česku povinni mít zapnuté po celou dobu jízdy?",
-      "answer": "předni světla",
+      "question": "Jaký je hlavní cíl organizace Akatsuki ve světě Naruto?",
+      "answer": "Získat všechny bijuu",
       "options": [
-        "předni světla",
-        "bezpečnostní pásy",
-        "radio",
-        "vysílač polohy vozidla pro případ nehody"
+        "Získat všechny bijuu",
+        "Ovládnout Konohagakure",
+        "Oživit Madaru Uchihu ",
+        "Vytvořit mír mezi národy"
       ],
       "points": 6000
     },
     {
-      "question": "Od kterého roku není Pluto uznáváno jako planeta?",
-      "answer": "2006",
+      "question": "Který film z MCU vyšel jako první po premiéře \"The Avengers\"?",
+      "answer": "Iron Man 3",
       "options": [
-        "2006",
-        "2008",
-        "2009",
-        "Pluto je planeta"
+        "Iron Man 3",
+        "Captain America: The Winter Soldier",
+        "Thor: The Dark World",
+        "Guardians of the Galaxy"
       ],
       "points": 7000
     },
     {
-      "question": "\"PLUR\" je takzvaná filozofie EDM. Co symbolizuje v této zkratce písmeno L?",
-      "answer": "Love",
+      "question": "Jaký je první tým, do kterého Naruto patří po absolvování Akademie?",
+      "answer": "7",
       "options": [
-        "Love",
-        "Life",
-        "Loud",
-        "Liver"
+        "7",
+        "8",
+        "9",
+        "10"
       ],
       "points": 8000
     },
     {
-      "question": "Ve kterém roce byl udělen patent na první automatickou převodovku?",
-      "answer": "1921",
+      "question": "Na jakém ostrové vznikla Maska světla ze světa Bionicle?",
+      "answer": "Artakha",
       "options": [
-        "1921",
-        "1922",
-        "1920",
-        "1919"
+        "Artakha",
+        "Xia",
+        "Okoto",
+        "Daxia"
       ],
       "points": 9000
     }

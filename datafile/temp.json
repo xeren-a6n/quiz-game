@@ -1,0 +1,106 @@
+{
+  "name": "Lenka",
+  "backgroundColor": "black",
+  "textColor": "pink",
+  "questions": [
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "xxx",
+      "answer": "xxx",
+      "options": [
+        "xxx",
+        "xxx",
+        "xxx",
+        "xxx"
+      ],
+      "points": 9000
+    }
+  ]
+}

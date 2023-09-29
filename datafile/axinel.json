@@ -1,0 +1,106 @@
+{
+  "name": "Axinel",
+  "backgroundColor": "black",
+  "textColor": "white",
+  "questions": [
+    {
+      "question": "Kdo hrál roli profesora Severuse Snapea ve filmech Harry Potter?",
+      "answer": "Alan Rickman",
+      "options": [
+        "Alan Rickman",
+        "Ralph Fiennes",
+        "Gary Oldman",
+        "Michael Gambon"
+      ],
+      "points": 1000
+    },
+    {
+      "question": "Z jakého bloku se staví tzv \"Nether portal\" ver hře Minecraft?",
+      "answer": "Obsidiánu",
+      "options": [
+        "Obsidiánu",
+        "Diamantového bloku",
+        "Zlatého bloku",
+        "Vážně si tu někdo vzal možnosti???"
+      ],
+      "points": 2000
+    },
+    {
+      "question": "Jak se jmenuje hlavní postava a voják, který je povolán zpět do služby z důvodů aktivity na jistém zařízení ve sci-fi seriálu Hvězdná brána (SG1)?",
+      "answer": "Jack O'Neill",
+      "options": [
+        "John Sheppard",
+        "Samantha Carter",
+        "Daniel Jackson",
+        "Jack O'Neill"
+      ],
+      "points": 3000
+    },
+    {
+      "question": "Jaký je název tvůrčího režimu v Minecraftu, který umožňuje hráčům stavět bez omezení a nepřátel na přežití?",
+      "answer": "Kreativní režim",
+      "options": [
+        "Kreativní režim",
+        "Dobrodružný režim",
+        "Hardcore režim",
+        "Survival"
+      ],
+      "points": 4000
+    },
+    {
+      "question": "Jak se jmenuje druh zvířete, které je vyobrazeno ve 3. díle Harryho Pottera, které se jmenuje Klofan.",
+      "answer": "Hipogryf",
+      "options": [
+        "Kentaur",
+        "Hipogryf",
+        "Pegas",
+        "Robůstník"
+      ],
+      "points": 5000
+    },
+    {
+      "question": "Co je Jaffa v seriálu Hvězdná brána?",
+      "answer": "Mimozemská rasa",
+      "options": [
+        "Druh zbraně",
+        "Mimozemská rasa",
+        "Hlavní město Goa'ulda",
+        "Středisko vojenského výzkumu"
+      ],
+      "points": 6000
+    },
+    {
+      "question": "Jaké je druhé jméno Harryho Pottera?",
+      "answer": "James",
+      "options": [
+        "James",
+        "William",
+        "Henry",
+        "Robert"
+      ],
+      "points": 7000
+    },
+    {
+      "question": "Kolik knihoven je potřeba v okolí enchantovacího stolu ve hře minecraft, aby nabízel co nejvyšší echnaty?",
+      "answer": "15",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "30"
+      ],
+      "points": 8000
+    },
+    {
+      "question": "Jaký je název prvního mezihvězdného bitevního křižníku vyrobéného Tau'ri (lidmi) v seriálu hvězdná brána.",
+      "answer": "Prometheus",
+      "options": [
+        "Prometheus",
+        "Odyssey",
+        "Atlantis",
+        "Enterprise"
+      ],
+      "points": 9000
+    }
+  ]
+}
