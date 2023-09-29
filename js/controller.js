@@ -9,13 +9,13 @@
     // ];
 
     let files = [
+        "datafile/axinel.json",
         "datafile/dan.json",
-        "datafile/domink.json",
-        "datafile/michaela.json",
-        "datafile/ondra.json",
-        "datafile/pavel.json",
-        "datafile/tomas.json",
-        "datafile/veru.json"
+        "datafile/jirik.json",
+        "datafile/maty.json",
+        "datafile/eliska.json",
+        "datafile/lenka.json",
+        "datafile/vasik.json"
     ];
 
     let promises = [];
